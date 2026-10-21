@@ -1,8 +1,7 @@
 # Methodology and supplementary details
 
 This document specifies the experiment of the article *Predictive Maintenance at the Edge: An Embedded Anomaly
-Detection Pipeline Trained with Quantum Optimization* (IEEE Computing in Science & Engineering, special issue on
-quantum computing) and holds the details that did not fit in the article: the full protocol, the derivations, every
+Detection Pipeline Trained with Quantum Optimization* and holds the details that did not fit in the article: the full protocol, the derivations, every
 hyper-parameter, the detailed results of the reference run and what was learned in earlier versions of the study.
 The code implements it as methodology version 4 (`METHODOLOGY_VERSION` in `src/experiment/config.py`). Section and
 equation numbers of the article are cited as "article, Eq. (n)".
