@@ -1,8 +1,7 @@
 # Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum Optimization
 
 Code of the article *Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum
-Optimization* (IEEE Computing in Science & Engineering, special issue on quantum computing), evaluated on the
-Paderborn University bearing dataset.
+Optimization*, evaluated on the Paderborn University bearing dataset.
 
 The article presents a predictive-maintenance pipeline that detects anomalies in bearings from vibration signals and
 runs on a low-cost microcontroller without a floating-point unit (ESP32-C6). Two steps of its training are combinatorial
