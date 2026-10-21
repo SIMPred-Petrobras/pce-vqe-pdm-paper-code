@@ -1,0 +1,19 @@
+# Versions tested with Python 3.14.4, October 2026.
+# Install with: pip install -r requirements.txt
+
+# Data, signal processing, classical learning, tables and figures
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+scikit-learn==1.8.0
+matplotlib==3.10.9
+
+# Progress bar of the experiment runner
+tqdm==4.70.0
+
+# Quantum circuits: the VQE and PCE circuits are simulated with numpy (qopt/vqe.py, qopt/pce.py);
+# PennyLane is used only to cross-check the PCE simulator (qopt.pce.verify_against_pennylane).
+pennylane==0.45.0
+
+# Optional: certificates for downloading the dataset on systems that lack the server's root CA
+certifi
